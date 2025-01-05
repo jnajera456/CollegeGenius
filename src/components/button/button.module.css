@@ -1,0 +1,22 @@
+.button {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 15px;
+    border:none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .button {
+        background-color: red;
+    }
+  }
+
+  .disabledButton {
+    background-color: lightgrey !important;
+    color:darkslategrey !important;
+    pointer-events: none;
+  }
