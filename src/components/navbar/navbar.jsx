@@ -1,6 +1,10 @@
+import { useRouter } from 'next/router'; //this will help to detect which page user is on, for active links
+import cx from 'classnames'; //helps for applying multiple classes
 import styles from "./navbar.module.css";
 
 export default function Navbar() {
+  const router = useRouter();
+
   return (
     <div className={styles.navbarContent}>
       <div className={styles.logoSection}>
@@ -12,7 +16,9 @@ export default function Navbar() {
         <a className={styles.siteName} href="/">CollegeGenius</a> 
       </div>
       <div className={styles.linkContainer}>
-        <a className={styles.link} href="/" >Home</a>
+        <a className={cx(styles.link, {
+          [styles.active]: router.pathname === '/',
+        })} href="/" >Home</a>
         <a className={styles.link} href="/about">About</a>
         <a className={styles.link} href="/features">Features</a>
       </div>
