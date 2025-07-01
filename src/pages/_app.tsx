@@ -6,7 +6,7 @@ import React from 'react';
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["600", "500", "400"], //regular, medium, semi-bold
+  weight: ["600", "500", "400"], //semi-bold, medium, regular
 });
 
 export default function MyApp ({ Component, pageProps }: AppProps) {
