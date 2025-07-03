@@ -85,6 +85,97 @@ export default function Home() {
             </h4>
           </div>
         </div>
+        <div className={styles.leftSidedContainer}>
+          <div className={styles.leftSidedInfo}>
+            <h3>College Suggestions</h3>
+            <h4 className={styles.featureDescription}>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
+              consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
+              quisque faucibus ex sapien vitae pellentesque.
+            </h4>
+          </div>
+          <Image
+            className={styles.sec3Visual}
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fmiles-morales-in-spider-man-into-the-spider-verse_a2dtaGyUmZqaraWkpJRnZWltrWdlaW0.jpg&f=1&nofb=1&ipt=d66c2f85c920abecf9325bfd2c93ba5c39b7038e15af3d53dfacf7ae39caeedd"
+            alt="Miles Morales Spider-Man"
+            width={600}
+            height={400}
+            unoptimized
+          />
+        </div>
+        <div className={styles.rightSidedContainer}>
+          <Image
+            className={styles.sec3Visual}
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fmiles-morales-in-spider-man-into-the-spider-verse_a2dtaGyUmZqaraWkpJRnZWltrWdlaW0.jpg&f=1&nofb=1&ipt=d66c2f85c920abecf9325bfd2c93ba5c39b7038e15af3d53dfacf7ae39caeedd"
+            alt="Miles Morales Spider-Man"
+            width={600}
+            height={400}
+            unoptimized
+          />
+          <div className={styles.rightSidedInfo}>
+            <h3>Passion Project Generator</h3>
+            <h4 className={styles.featureDescription}>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
+              consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
+              quisque faucibus ex sapien vitae pellentesque.
+            </h4>
+          </div>
+        </div>
+        <div className={styles.leftSidedContainer}>
+          <div className={styles.leftSidedInfo}>
+            <h3>Essay Feedback</h3>
+            <h4 className={styles.featureDescription}>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
+              consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
+              quisque faucibus ex sapien vitae pellentesque.
+            </h4>
+          </div>
+          <Image
+            className={styles.sec3Visual}
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fmiles-morales-in-spider-man-into-the-spider-verse_a2dtaGyUmZqaraWkpJRnZWltrWdlaW0.jpg&f=1&nofb=1&ipt=d66c2f85c920abecf9325bfd2c93ba5c39b7038e15af3d53dfacf7ae39caeedd"
+            alt="Miles Morales Spider-Man"
+            width={600}
+            height={400}
+            unoptimized
+          />
+        </div>
+        <div className={styles.rightSidedContainer}>
+          <Image
+            className={styles.sec3Visual}
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fmiles-morales-in-spider-man-into-the-spider-verse_a2dtaGyUmZqaraWkpJRnZWltrWdlaW0.jpg&f=1&nofb=1&ipt=d66c2f85c920abecf9325bfd2c93ba5c39b7038e15af3d53dfacf7ae39caeedd"
+            alt="Miles Morales Spider-Man"
+            width={600}
+            height={400}
+            unoptimized
+          />
+          <div className={styles.rightSidedInfo}>
+            <h3>Mentor Matching (Coming Soon)</h3>
+            <h4 className={styles.featureDescription}>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet
+              consectetur adipiscing elit quisque faucibus ex. Adipiscing elit
+              quisque faucibus ex sapien vitae pellentesque.
+            </h4>
+          </div>
+        </div>
+        <div className={styles.sec3ButtonContainer}>
+          <button className={styles.sec3Button}>Unlock Your Dashboard</button>
+        </div>
+      </div>
+      <div className={styles.sec4}>
+        <h1>Who&apos;s It For?</h1>
+        <div className={styles.sec4QuotesContainer}>
+          <h3 className={styles.sec4Quote}>
+            “Students confused by the process”
+          </h3>
+          <h3 className={styles.sec4Quote}>
+            “First-gen or low-income backgrounds”
+          </h3>
+          <h3 className={styles.sec4Quote}>
+            “Students looking for realistic guidance, not hype”
+          </h3>
+        </div>
+        <h2 className={styles.sec4Question}>Ready to find your path?</h2>
+        <button className={styles.sec4Button}>Take the Survey</button>
       </div>
     </main>
   );
