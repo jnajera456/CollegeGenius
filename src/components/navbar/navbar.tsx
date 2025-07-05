@@ -29,8 +29,8 @@ const Navbar: React.FC = () => {
           Home
         </Link>
         
-        <Link href="/about" className={styles.link}>
-          About
+        <Link href="/getStarted" className={cx(styles.link, router.pathname === '/getStarted' && styles.activeLink)}>
+          Get Started
         </Link>
 
         <Link href="/features" className={styles.link}>

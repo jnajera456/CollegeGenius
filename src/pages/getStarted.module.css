@@ -1,0 +1,50 @@
+.pageContainer {
+  background-image: linear-gradient(purple, #f0f6ff);
+  padding: 100px;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+}
+
+.loginBoxContent {
+  background-color: white;
+  padding: 60px 60px;
+  width: 750px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.formsContainer {
+  margin-top: 24px;
+}
+
+.inputBox {
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.inputBox input {
+  border-width: 2px;
+  margin-top: 10px;
+  border-radius: 2.5px;
+  border-color: #c3cfd6;
+  background-color: white;
+  padding-left: 5px;
+}
+
+.inputBox input:focus {
+  outline: none;               /* kills default ring */
+  border-color: #c3cfd6;       /* consistent border on focus */
+  box-shadow: none;            /* kills default glow */
+}
+
+.loginButton {
+  margin-top: 20px;
+  width: 165px;
+  padding: 5px;
+}
