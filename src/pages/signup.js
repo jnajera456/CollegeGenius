@@ -1,13 +1,15 @@
 import styles from "./login.module.css";
 import Link from "next/link";
+
 /**import cx from "classnames";**/
 
-export default function Login() {
+export default function Signup() {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.loginBox}>
         <div className={styles.loginBoxContent}>
-          <h2>Sign In</h2>
+          <h2>Get Started!</h2>
+          <p>Create A Free Account</p>
           <div>
             <form className={styles.formContainer}>
               <div className={styles.inputBox}>
@@ -18,16 +20,11 @@ export default function Login() {
               </div>
             </form>
           </div>
-          <button className={styles.loginButton}>Sign In</button>
-          <div className={styles.forgotLinkContainer}>
-            <Link className={styles.forgotLink} href="/">
-              Forgot Password?
-            </Link>
-          </div>
+          <button className={styles.loginButton}>Create Account</button>
           <div className={styles.signupContainer}>
-            <p>New to CollegeGenius?</p>&nbsp;
-            <Link className={styles.signupLink} href="/signup">
-              Sign up now.
+            <p>Already have an account?</p>&nbsp;
+            <Link className={styles.signupLink} href="/login">
+              Log in.
             </Link>
           </div>
         </div>
