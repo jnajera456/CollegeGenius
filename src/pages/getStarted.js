@@ -1,24 +1,35 @@
 import styles from "./getStarted.module.css";
+import Link from "next/link";
+import cx from "classnames";
 
 export default function GetStarted() {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.loginBox}>
         <div className={styles.loginBoxContent}>
-          <h2>Login</h2>
-          <div className={styles.formsContainer}>
-            <form>
+          <h2>Sign In</h2>
+          <div>
+            <form className={styles.formContainer}>
               <div className={styles.inputBox}>
                 <input type="email" id="email" placeholder="Email Address" />
               </div>
-            </form>
-            <form>
               <div className={styles.inputBox}>
                 <input type="password" id="password" placeholder="Password" />
               </div>
             </form>
           </div>
-          <button className={styles.loginButton}>Login</button>
+          <button className={styles.loginButton}>Sign In</button>
+          <div className={styles.forgotLinkContainer}>
+            <Link className={styles.forgotLink} href="/">
+              Forgot Password?
+            </Link>
+          </div>
+          <div className={styles.signupContainer}>
+            <p>New to CollegeGenius?</p>&nbsp;
+            <Link className={styles.signupLink} href="/">
+              Sign up now.
+            </Link>
+          </div>
         </div>
       </div>
     </div>
