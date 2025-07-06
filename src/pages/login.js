@@ -1,8 +1,8 @@
-import styles from "./getStarted.module.css";
+import styles from "./login.module.css";
 import Link from "next/link";
-import cx from "classnames";
+/**import cx from "classnames";**/
 
-export default function GetStarted() {
+export default function Login() {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.loginBox}>

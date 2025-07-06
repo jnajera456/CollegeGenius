@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
           Home
         </Link>
         
-        <Link href="/getStarted" className={cx(styles.link, router.pathname === '/getStarted' && styles.activeLink)}>
+        <Link href="/login" className={cx(styles.link, router.pathname === '/login' && styles.activeLink)}>
           Get Started
         </Link>
 
